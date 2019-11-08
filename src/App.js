@@ -15,8 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <header><h1>NASA IS AWESOME</h1></header>
-      <PicOfDay title = {data.title} url = {data.url} explanation = {data.explanation} date = {data.date}/>
+      <PicOfDay title = {data.title}  url = {data.url} explanation = {data.explanation} date = {data.date}/>
     </div>
   );
 }
